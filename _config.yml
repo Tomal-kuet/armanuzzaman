@@ -1,0 +1,7 @@
+title: "Tomal's"
+description: Personal website for MD Armanuzzaman
+url: https://tomal-kuet.github.io/armanuzzaman
+author: MD Armanuzzaman
+plugins:
+  - jekyll-seo-tag
+
