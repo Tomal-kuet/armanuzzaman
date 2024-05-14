@@ -810,6 +810,9 @@ footer a#back_to_top i {
   border-color: #0095eb;
 }
 
+.btn-pdf {
+  color: #626369;
+}
 .btn-success.btn-outline {
   color: #5cb85c;
 }
