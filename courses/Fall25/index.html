@@ -1,0 +1,178 @@
+<!DOCTYPE html PUBLIC "-//W3C/DTD XHTML 1.0 Strict//EN">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+    <title>CS 4375 Operating Systems Concepts </title>
+    <meta http-equiv="Content-Style-Type" content="text/css">
+	<link rel="stylesheet" type="text/css" href="class.css" media="screen">
+</head>
+
+<body>
+
+<div class="header">
+  <h1>CS 4375 Operating Systems Concepts</h1>
+  <h2>Fall 2025, MW 10:30 am - 11:50 am, CCSB 3.1008</h2>
+</div>
+
+
+<div class="main">
+
+<h2>General Information </h2>
+<h3>Instructor </h3>
+  <dd>Dr. MD Armanuzzaman (<i>Arman</i>)</dd>
+  <dd>E-mail: marmanuzzaman@utep.edu</dd>
+  <dd>Homepage: <a href="https://tomal-kuet.github.io/armanuzzaman/">https://tomal-kuet.github.io/armanuzzaman/</a></dd>
+  <dd>Office hours will be M 1:30 pm - 3:00 pm or by appointment</dd>
+  <dd>CCSB 3.1008 or Teams at <a href="https://teams.microsoft.com/meet/2548611600723?p=KTXeMWcUSCJNe5eWgj">https://teams.microsoft.com/meet/2548611600723?p=KTXeMWcUSCJNe5eWgj</a></dd>
+
+<h3>TA </h3>
+  <dd>TODO</dd>
+  <dd>E-mail: TODO@utep.edu</dd>
+  <dd>Office hours will be TODO</dd>
+  <dd>TODO <a href=""></a></dd>
+
+<h2>Overview</h2>
+  <dd style="text-align: justify">
+    <p style="text-align: justify">CS 4375 is a course about the systems-level software called the operating system that provides an
+interface between application software and the computer hardware. The operating system is respon-
+sible for sharing resources, providing common services, and protecting programs from interference
+from other programs. Topics covered in the course include process management and scheduling,
+concurrency, interprocess communication, memory management, input/output management, file
+systems, and networking basics.</p>
+    <p style="text-align: justify">Downloads: <a href="syllabus.pdf">Course Syllabus</a></p>
+    <!-- <p style="text-align: justify">Downloads: <a href="https://www.dropbox.com/s/zd6jr4u3xqtf0vm/CSE610VM.zip?dl=0">Virtual Machine</a></p> -->
+  </dd>
+
+  <h2>Tentative Schedule </h2>
+  <center>
+  </center>
+  <table border="1">
+    <tbody>
+      <tr> 
+        <th width="180"><font color="#000099">Date</font></th>
+        <th width="625"><font color="#000099">Topic</font></th>
+        <th width="335"><font color="#000099">Material/Readings</font></th>
+        <th width="235"><font color="#000099">Dues</font></th>
+      </tr>
+
+<!--        <td>&nbsp;Overview and Background Knowledge <a href="slides/.pdf">Slides</a> <a href="code/.zip">Code</a> <a href="hw/.zip">HW1</a> <a href="">Video UB Cloud</a> <a href="">YouTube</a> <a href="">Youku</a></td> -->
+
+      <tr> 
+        <td>Week-1 Class-1 8/25</td>
+        <td>Class Overview, Logistics, and Introduction <a href="">Slides</a> 
+        </td>
+        <td>
+        <Ul>
+        <li>GR: <a href="https://man7.org/tlpi/">TLPI</a> Chapter 1</li>
+
+        <li>Arrays of <a href="https://www.geeksforgeeks.org/array-of-pointers-in-c/">pointers article</a></li>
+
+        <li> 
+            <a href="C_Pointer_Exercises.docx">C Pointer Exercises</a>
+        </li>
+
+        <li> 
+            <a href="C_Pointer_Exercises_Solutions.docx">C Pointer Exercises Solutions</a>
+        </li>
+
+        </ul>
+        </td>
+        <td>&nbsp;</td>
+      </tr>
+
+      <tr> 
+        <td>Week-1 Class-2 8/27</td>
+        <td>Buffer Overflow (Background and Local variables) <a href="slides/L3 Buffer Overflow (Local Variables).pdf">L3 Buffer Overflow (Local Variables)</a> <a href="slides/L4 Buffer Overflow (RET address).pdf">L4 Buffer Overflow (Return address)</a> <a href="hw/hw2.docx">Hw</a> <a href="https://youtu.be/L_14PX5YFuo">Video</a> </td>
+        <td>&nbsp;</td>
+        <td>Hw-1</td>
+      </tr>      
+
+      <tr> 
+        <td>Week-3 Class-1 1/22</td> 
+        <td>Buffer Overflow <a href="slides/L5 Buffer Overflow (Return to Shellcode).pdf">L5 Buffer Overflow (Return to Shellcode)</a> <a href="hw/hw3.docx">Hw</a> <a href="https://youtu.be/SBs_d2Up7PY">Video</a> </td>
+        <td>&nbsp;</td>
+        <td>Hw-2</td>
+      </tr>
+
+      <tr> 
+        <td>Week-4 Class-1 1/29</td>
+        <td>Buffer Overflow <a href="slides/L6 Buffer Overflow (Frame Pointer Attack).pdf">L6 Buffer Overflow (Frame Pointer Attack)</a> <a href="slides/L8 Buffer Overflow (DEP, Shadow Stack, Stack Canary).pdf">L8 Buffer Overflow (DEP, Shadow Stack, Stack Canary)</a> <a href="hw/hw4.docx">Hw</a> <a href="https://youtu.be/U0wZEGvwros">Video</a></td>
+        <td>&nbsp;</td>
+        <td>Hw-3</td>
+      </tr>      
+
+      <tr> 
+        <td>Week-5 Class-1 2/5</td>
+        <td>Buffer Overflow <a href="slides/L7 Buffer Overflow (Real-world Examples).pdf"> L7 Buffer Overflow (Real-world Examples)</a> <a href="slides/L9 ASLR and Seccomp.pdf">L9 ASLR and Seccomp</a> <a href="hw/hw5.docx">Hw</a> <a href="https://youtu.be/tCviwlgqMlc">Video</a> </td>
+        <td>&nbsp;</td>
+        <td>Hw-4</td>
+      </tr>
+
+      <tr> 
+        <td>Week-6 Class-1 2/12</td>
+        <td>Shellcode workshop I <a href="slides/L10 Shellcoding.pdf">L10 Shellcoding</a> <a href="hw/hw6.docx">Hw</a> <a href="https://youtu.be/_peUb5ckD8g">Video</a> </td>
+        <td>&nbsp;</td>
+        <td>Hw-5</td>
+      </tr>
+
+      <tr> 
+        <td>Week-7 Class-1 2/19</td>
+        <td>Shellcode workshop II <a href="hw/hw7.docx">Hw</a> </td>
+        <td>&nbsp;</td>
+        <td>Hw-6</td>
+      </tr>
+
+      <tr> 
+        <td>Week-8 Class-1 2/26</td>
+        <td>*** Midterm CTF *** <a href="ctf/midterm.docx">Midterm</a> <a href="hw/hw8.docx">Hw</a> </td>
+        <td>&nbsp;</td>
+        <td>Hw-7</td>
+
+      </tr>
+
+      <tr> 
+        <td>Week-9 Class-1 3/5</td>
+        <td>============ Spring Break No class ============<td>
+        <td></td>
+      </tr>
+
+      <tr> 
+        <td>Week-10 Class-1 3/12</td>
+        <td>Format string vulnerability <a href="slides/L11 Format String (Memory Read).pdf">L11 Format String (Memory Read)</a> Format string vulnerability <a href="slides/L12 Format String (Memory Write).pdf">L12 Format String (Memory Write)</a> <a href="hw/hw9.docx">Hw</a> <a href="https://youtu.be/i-uy7s0OfIk">Video</a> </td>
+        <td>&nbsp;</td>
+        <td>Hw-8 Due on March 14th</td>
+      </tr>
+
+      <tr> 
+        <td>Week-11 Class-1 3/19</td>
+        <td>Return-oriented programming <a href="slides/L13 Return-oriented Programming.pdf">L13 Return-oriented Programming</a> <a href="hw/hw10.docx">Hw</a> <a href="https://youtu.be/vEzGEvZuJFI/">Video</a> </td>
+        <td>Hw-9 Due on March 21st</td>
+      </tr>
+
+      <tr> 
+        <td>Week-12 Class-1 3/26</td>
+        <td>Heap exploitation Heap exploitation <a href="slides/L14 Heap Exploitation.pdf">L14 Heap Exploitation</a> <a href="hw/hw11.docx">Hw</a> <a href="https://youtu.be/">Video</a> </td>
+        <td>Hw-10 Due on March 28th</td> 
+      </tr>
+
+      <tr> 
+        <td>Week-13 Class-1 4/2</td> 
+        <td>Cache and cache side-channel <a href="slides/L15 Cache and cache side-channel.pdf">L15 Heap Exploitation</a> <a href="hw/hw12.docx">Hw12</a> <a href="hw/hw13.docx">Hw13</a> <a href="hw/hw14.docx">Hw14</a> </td>
+        <td>Hw-11 Due on April 4th</td>
+      </tr>
+
+      <tr> 
+        <td>Week-14 Class-1 4/9</td>
+        <td>*** FinalCTF *** <a href="ctf/final.docx">Final</a> </td>
+        <td>Hw-12, Hw-13 Due on April 17th</td>
+      </tr>
+                   
+    </tbody>
+  </table>
+
+<h2>Resources</h2>
+  <p><a href="https://darkdust.net/files/GDB%20Cheat%20Sheet.pdf">GDB Cheat Sheet</a> <a href="https://tmuxcheatsheet.com/">Tmux Cheet Sheet</a> <a href="https://cs.brown.edu/courses/cs033/docs/guides/x64_cheatsheet.pdf">x64 Cheat Sheet</a> <a href="https://trailofbits.github.io/ctf/vulnerabilities/references/X86_Win32_Reverse_Engineering_Cheat_Sheet.pdf">x32 Cheat Sheet</a> <a href="https://pbs.twimg.com/media/B6wdSlECIAAPO4B?format=png&name=4096x4096">x32 Cheat Sheet</a> <a href="https://github.com/oowekyala/arm-cheatsheet/blob/master/arm-cheatsheet.pdf">ARM Cheat Sheet</a> <a href="https://azeria-labs.com/assembly-basics-cheatsheet/">ARM Cheat Sheet 32-bit</a> </p>
+
+</div>
+
+</body></html>
