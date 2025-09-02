@@ -2,3 +2,13 @@
 src/public/
 **/.DS_Store
 */.DS_Store
+*.out
+*.elf
+*.bin
+*.o
+bin/
+*/bin/
+*.json
+*.plist
+*.log
+*.dSYM
