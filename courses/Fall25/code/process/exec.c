@@ -53,6 +53,7 @@ int main()
         // Here It will return parent of parent process's ID
         printf("Parent Of parent process, pid = %u\n", getppid());
         printf("parent process, pid = %u\n", getpid());
+        printf("child process, pid = %u\n", pid);
 
         // the parent process calls waitpid() on the child
         // waitpid() system call suspends execution of
