@@ -31,4 +31,5 @@ int main(int argc, char *argv[])
         wait(0); // wait for child to finish
         exit(0);
     }
+    return 0;
 }
