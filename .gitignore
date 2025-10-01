@@ -12,3 +12,7 @@ bin/
 *.plist
 *.log
 *.dSYM
+*.s
+*.o
+*.bc
+*.i
