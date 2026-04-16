@@ -1,0 +1,3 @@
+I plan to adopt goal setting, structured mentoring meetings, and collaborative learning practices (e.g., peer discussion and feedback). I also plan to include regular reflection activities. As a variation, I will incorporate a short introductory session on how to read and approach research papers, since students often feel overwhelmed by complexity early on.
+
+One strategy I find highly effective is breaking down complex research tasks into small, iterative steps (e.g., reading → summarizing → discussing → presenting). I also use quick check-ins with guiding questions to track understanding and confidence. I’m willing to share these as part of future course resources.
