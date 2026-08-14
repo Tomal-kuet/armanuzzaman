@@ -1,0 +1,574 @@
+<!DOCTYPE html PUBLIC "-//W3C/DTD XHTML 1.0 Strict//EN">
+<html lang="en" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+ <head>
+  <meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+  <title>
+   CS 4351 Computer Security
+  </title>
+  <meta content="text/css" http-equiv="Content-Style-Type"/>
+  <link href="class.css" media="screen" rel="stylesheet" type="text/css"/>
+ </head>
+ <body>
+  <div class="header">
+   <h1>
+    University of Texas at El Paso
+   </h1>
+   <h1>
+    CS 4351 Computer Security
+   </h1>
+   <h2>
+    Fall 2026, TR 12:00 pm - 1:20 pm, Texas Western Hall 304
+   </h2>
+  </div>
+  <div class="main">
+   <h2>
+    General Information
+   </h2>
+   <h3>
+    Instructor
+   </h3>
+   <dd>
+    Dr. MD Armanuzzaman (
+    <i>
+     Arman
+    </i>
+    )
+   </dd>
+   <dd>
+    E-mail: marmanuzzaman@utep.edu
+   </dd>
+   <dd>
+    Homepage:
+    <a href="https://tomal-kuet.github.io/armanuzzaman/">
+     https://tomal-kuet.github.io/armanuzzaman/
+    </a>
+   </dd>
+   <dd>
+    Office hours will be TR 10:30 am - 11:50 am or by appointment
+   </dd>
+   <dd>
+    CCSB 3.1008 or Teams at
+    <a href="https://teams.microsoft.com/meet/266216778840526?p=gKAH5WRBlptCRpedMg">
+     Meeting
+        Link
+    </a>
+   </dd>
+     <h3>
+    Teaching Assistant
+   </h3>
+   <dd>
+    Name: TBD
+   </dd>
+   <dd>
+    E-mail: TBD
+   </dd>
+   <dd>
+    Office hours: TBD
+   </dd>
+   <dd>
+    Office/Meeting Location: TBD
+   </dd>
+   <h2>
+    Overview
+   </h2>
+   <dd style="text-align: justify">
+    <p style="text-align: justify">
+     This course develops a strong understanding of the fundamental principles of computer security and introduces the tools and mechanisms used to protect software and computing systems. The course is intended for upper-level undergraduate students and covers cryptographic foundations and tools, authentication, access control, database security, operating-system security, software security and malware, Internet security protocols and standards, intrusion detection and prevention, privacy, identity management, security management and risk assessment, and legal and ethical aspects of cybersecurity.
+    </p>
+    <p style="text-align: justify">
+     Downloads:
+     <a href="syllabus.pdf">
+      Course Syllabus
+     </a>
+    </p>
+   </dd>
+   <h2>
+    Tentative Schedule
+   </h2>
+   <center>
+   </center>
+   <table border="1">
+    <tbody>
+     <tr>
+      <th width="170">
+       <font color="#000099">
+        Date
+       </font>
+      </th>
+      <th width="1025">
+       <font color="#000099">
+        Topic
+       </font>
+      </th>
+      <th width="135">
+       <font color="#000099">
+        Dues
+       </font>
+      </th>
+     </tr>
+     <tr>
+      <td>
+       Week-1 Class-1 8/25
+      </td>
+      <td>
+       Overview
+       ;
+       <a href="#">
+        Slides
+       </a>
+      </td>
+      <td>
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Week-1 Class-2 8/27
+      </td>
+      <td>
+       Symmetric Encryption I
+       ;
+       <a href="#">
+        Slides
+       </a>
+      </td>
+      <td>
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Week-2 Class-1 9/1
+      </td>
+      <td>
+       Symmetric Encryption II
+       ;
+       <a href="#">
+        Slides
+       </a>
+      </td>
+      <td>
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Week-2 Class-2 9/3
+      </td>
+      <td>
+       Diffie-Hellman, Data Integrity and Hash Functions
+       ;
+       <a href="#">
+        Slides
+       </a>
+      </td>
+      <td>
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Week-3 Class-1 9/8
+      </td>
+      <td>
+       Password Hashing and Public-Key Cryptography
+       ;
+       <a href="#">
+        Slides
+       </a>
+      </td>
+      <td>
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Week-3 Class-2 9/10
+      </td>
+      <td>
+       Certificates and Randomness
+       ;
+       <a href="#">
+        Slides
+       </a>
+      </td>
+      <td>
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Week-4 Class-1 9/15
+      </td>
+      <td>
+       Authentication I
+       ;
+       <a href="#">
+        Slides
+       </a>
+      </td>
+      <td>
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Week-4 Class-2 9/17
+      </td>
+      <td>
+       Authentication II
+       ;
+       <a href="#">
+        Slides
+       </a>
+      </td>
+      <td>
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Week-5 Class-1 9/22
+      </td>
+      <td>
+       Authentication III
+       ;
+       <a href="#">
+        Slides
+       </a>
+      </td>
+      <td>
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Week-5 Class-2 9/24
+      </td>
+      <td>
+       Access Control I
+       ;
+       <a href="#">
+        Slides
+       </a>
+      </td>
+      <td>
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Week-6 Class-1 9/29
+      </td>
+      <td>
+       Access Control II
+       ;
+       <a href="#">
+        Slides
+       </a>
+      </td>
+      <td>
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Week-6 Class-2 10/1
+      </td>
+      <td>
+       Database Security
+       ;
+       <a href="#">
+        Slides
+       </a>
+      </td>
+      <td>
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Week-7 Class-1 10/6
+      </td>
+      <td>
+       <strong>
+        *** Midterm Exam ***
+       </strong>
+      </td>
+      <td>
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Week-7 Class-2 10/8
+      </td>
+      <td>
+       Operating System Security
+       ;
+       <a href="#">
+        Slides
+       </a>
+      </td>
+      <td>
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Week-8 Class-1 10/13
+      </td>
+      <td>
+       Software Security I
+       ;
+       <a href="#">
+        Slides
+       </a>
+      </td>
+      <td>
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Week-8 Class-2 10/15
+      </td>
+      <td>
+       Software Security II
+       ;
+       <a href="#">
+        Slides
+       </a>
+      </td>
+      <td>
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Week-9 Class-1 10/20
+      </td>
+      <td>
+       Software Security III
+       ;
+       <a href="#">
+        Slides
+       </a>
+      </td>
+      <td>
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Week-9 Class-2 10/22
+      </td>
+      <td>
+       Software Security IV
+       ;
+       <a href="#">
+        Slides
+       </a>
+      </td>
+      <td>
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Week-10 Class-1 10/27
+      </td>
+      <td>
+       Software Security V
+       ;
+       <a href="#">
+        Slides
+       </a>
+      </td>
+      <td>
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Week-10 Class-2 10/29
+      </td>
+      <td>
+       Network Security I
+       ;
+       <a href="#">
+        Slides
+       </a>
+      </td>
+      <td>
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Week-11 Class-1 11/3
+      </td>
+      <td>
+       Network Security II
+       ;
+       <a href="#">
+        Slides
+       </a>
+      </td>
+      <td>
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Week-11 Class-2 11/5
+      </td>
+      <td>
+       Network Security III
+       ;
+       <a href="#">
+        Slides
+       </a>
+      </td>
+      <td>
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Week-12 Class-1 11/10
+      </td>
+      <td>
+       Network Security IV
+       ;
+       <a href="#">
+        Slides
+       </a>
+      </td>
+      <td>
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Week-12 Class-2 11/12
+      </td>
+      <td>
+       Network Security V
+       ;
+       <a href="#">
+        Slides
+       </a>
+      </td>
+      <td>
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Week-13 Class-1 11/17
+      </td>
+      <td>
+       Intrusion Detection
+       ;
+       <a href="#">
+        Slides
+       </a>
+      </td>
+      <td>
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Week-13 Class-2 11/19
+      </td>
+      <td>
+       Privacy and Identity Management
+       ;
+       <a href="#">
+        Slides
+       </a>
+      </td>
+      <td>
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Week-14 Class-1 11/24
+      </td>
+      <td>
+       Security Management and Risk Assessment
+       ;
+       <a href="#">
+        Slides
+       </a>
+      </td>
+      <td>
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Week-14 Class-2 11/26
+      </td>
+      <td>
+       <strong>
+        ===============Thanksgiving Holiday - No Class===============
+       </strong>
+      </td>
+      <td>
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Week-15 Class-1 12/1
+      </td>
+      <td>
+       Legal and Ethical Aspects
+       ;
+       <a href="#">
+        Slides
+       </a>
+      </td>
+      <td>
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Week-15 Class-2 12/3
+      </td>
+      <td>
+       <strong>
+        Review for Final Exam
+       </strong>
+      </td>
+      <td>
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Final Exam 12/8; 1:00 PM - 3:45 PM
+      </td>
+      <td>
+       <strong>
+        Final Exam
+       </strong>
+      </td>
+      <td>
+      </td>
+     </tr>
+    </tbody>
+   </table>
+   <h2>
+    Resources
+   </h2>
+   <p>
+    <strong>
+     Required textbook:
+    </strong>
+   </p>
+   <ul>
+    <li>
+     William Stallings and Lawrie Brown, Computer Security: Principles and Practice, 4th edition, Pearson, 2017.
+    </li>
+   </ul>
+   <p>
+    <strong>
+     Additional resources:
+    </strong>
+   </p>
+   <ul>
+    <li>
+     Charles Pfleeger and Shari Pfleeger, Security in Computing.
+    </li>
+    <li>
+     William Stallings, Cryptography and Network Security, Principles and Practice.
+    </li>
+    <li>
+     Charlie Kaufman, Radia Perlman, and Mike Speciner, Network Security: Private Communication in a Public World.
+    </li>
+    <li>
+     Edward Skoudis and Tom Liston, Counter Hack Reloaded: A Step-by-Step Guide to Computer Attacks and Effective Defenses.
+    </li>
+    <li>
+     Ross Anderson, Security Engineering: A Guide to Building Dependable Distributed Systems.
+    </li>
+   </ul>
+  </div>
+ </body>
+</html>
